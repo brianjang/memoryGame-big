@@ -1,7 +1,7 @@
 {
   "version": "3.0.0",
   "scripts": {
-    "start": "vite",
+    "start": "vite --port 4000",
     "build": "vue-tsc --noEmit && vite build --target=es2015",
     "serve": "vite preview",
     "deploy": "yarn build && gh-pages -d dist"
